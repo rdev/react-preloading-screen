@@ -46,7 +46,7 @@ class MyApp extends React.Component {
 | ------------- | ------------- |
 |`fadeDuration` | Amount of time it takes for preloader to fade out (ms)|
 |`className`    | Class name passed to preloader `div`
-|`style`        | JSX Style object to override preliader styles. _**Keep in mind:** Opacity attribute is used for fade animation._|
+|`style`        | JSX Style object to override preloader styles. _**Keep in mind:** Opacity attribute is used for fade animation._|
 
 ## How it works
 
