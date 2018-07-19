@@ -6,15 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "zeit-eslint --ext .jsx,.js index.js",
-    "precommit": "lint-staged",
     "cz": "git-cz",
     "semantic-release": "semantic-release"
-  },
-  "lint-staged": {
-    "*.js": [
-      "zeit-eslint --ext .jsx,.js",
-      "git add"
-    ]
   },
   "config": {
     "commitizen": {
@@ -39,7 +32,6 @@
     "eslint": "^5.1.0",
     "flow-bin": "^0.76.0",
     "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
     "rollup": "^0.63.2",
     "rollup-plugin-babel": "^4.0.0-beta.7",
     "rollup-plugin-commonjs": "^9.1.3",
