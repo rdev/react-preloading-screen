@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rollup -c",
     "lint": "zeit-eslint --ext .jsx,.js index.js",
     "cz": "git-cz",
@@ -32,6 +33,7 @@
     "eslint": "^5.1.0",
     "flow-bin": "^0.76.0",
     "husky": "^0.14.3",
+    "react": "^16.4.1",
     "rollup": "^0.63.2",
     "rollup-plugin-babel": "^4.0.0-beta.7",
     "rollup-plugin-commonjs": "^9.1.3",
