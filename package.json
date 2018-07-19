@@ -1,0 +1,65 @@
+{
+  "name": "react-preloading-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "zeit-eslint --ext .jsx,.js index.js",
+    "precommit": "lint-staged",
+    "cz": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "lint-staged": {
+    "*.js": [
+      "zeit-eslint --ext .jsx,.js",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "@babel/preset-flow": "^7.0.0-beta.54",
+    "@babel/preset-react": "^7.0.0-beta.54",
+    "@fivepointseven/eslint-config": "^1.0.1",
+    "@zeit/eslint-config-base": "^0.3.0",
+    "babel-eslint": "^8.2.6",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.1.0",
+    "flow-bin": "^0.76.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "rollup": "^0.63.2",
+    "rollup-plugin-babel": "^4.0.0-beta.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "semantic-release": "^15.8.1",
+    "uglify-es": "^3.3.9"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@fivepointseven/eslint-config"
+    ],
+    "settings": {
+      "flowtype": {
+        "onlyFilesWithFlowAnnotation": true
+      }
+    },
+    "rules": {
+      "flowtype/require-return-type": "off",
+      "react/require-default-props": "off"
+    }
+  }
+}
