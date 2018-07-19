@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="logo" title="react-preloading-screen" src="logo.svg" width="550">
+	<img alt="logo" title="react-preloading-screen" src="logo.svg" width="250">
 </p>
 <p align="center"><b>react-preloading-screen</b></p>
 <p align="center">Minimal preloading component for React</p>
