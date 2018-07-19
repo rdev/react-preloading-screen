@@ -8,6 +8,15 @@
 
 This is a React component that implements a preloading screen functionality in React. [Demo can be found here](https://react-preloading-screen.now.sh)
 
+## Installation
+
+```bash
+npm install --save react-preloading-screen
+```
+or
+```bash
+yarn add react-preloading-screen
+```
 
 ## Usage
 
