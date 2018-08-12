@@ -27,13 +27,17 @@ import React from 'react';
 import { Preloader, Placeholder } from 'react-preloading-screen';
 
 class MyApp extends React.Component {
-	<Preloader>
-		<h1>Welcome to my app!</h1>
-		<h2>It's being preloaded!</h2>
-		<Placeholder>
-			<span>Loading...</span>
-		</Placeholder>
-	</Preloader>
+	render() {
+		return (
+			<Preloader>
+				<h1>Welcome to my app!</h1>
+				<h2>It's being preloaded!</h2>
+				<Placeholder>
+					<span>Loading...</span>
+				</Placeholder>
+			</Preloader>
+		);
+	}
 }
 
 ```
