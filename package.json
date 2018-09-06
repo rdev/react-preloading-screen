@@ -1,6 +1,6 @@
 {
   "name": "react-preloading-screen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -10,13 +10,14 @@
     "cz": "git-cz",
     "semantic-release": "semantic-release"
   },
+  "repository": "https://github.com/rdev/react-preloading-screen",
+  "author": "Max Rovensky <hey@fivepointseven.com> (https://fivepointseven.com)",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "preload", "preloader", "preloading"],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",

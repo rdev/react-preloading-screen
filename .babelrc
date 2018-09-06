@@ -6,7 +6,8 @@
 				"targets": {
 					"chrome": 55
 				},
-				"modules": false
+				"modules": false,
+				"forceAllTransforms": true
 			}
 		],
 		"@babel/preset-flow",

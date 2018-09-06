@@ -11,6 +11,7 @@ export default {
 		file: 'dist/index.js',
 		format: 'umd',
 		sourcemap: true,
+		globals: ['React'],
 	},
 	plugins: [
 		babel({
@@ -18,7 +19,7 @@ export default {
 		}),
 		resolve(),
 		commonjs(),
-		uglify({}, minify),
+		// uglify({}, minify),
 	],
 	external: ['react'],
 };
